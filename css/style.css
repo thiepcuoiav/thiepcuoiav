@@ -1,0 +1,123 @@
+.section__1 {
+  background-image: url('/img/bg-section-1.png');
+  background-size: 100% 100%;
+  height: 100vh;
+  color: rgb(73, 24, 40);
+}
+
+.box--head {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  height: 35%;
+}
+
+.box--head img {
+  position: absolute;
+  top: 0;
+  width: 35%;
+  max-height: 100%;
+}
+
+.box--head img:first-child {
+  left: 0;
+}
+
+.box--head img:last-child {
+  right: 0;
+}
+
+.box--footer {
+  position: absolute;
+  bottom: 0;
+  height: 30%;
+  right: 0;
+  left: 0;
+}
+
+.box--footer img {
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+  max-height: 100%;
+}
+
+.box--footer img:last-child {
+  right: 0;
+}
+
+.box--main {
+  position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.main--head .head--title {
+  font-size: 2.8em;
+  font-family: 'Abhaya Libre', serif;
+  margin: 5px auto;
+}
+
+.main--head h2, .main--head h3, .main--content h2, .main--content h3 {
+  margin: 5px auto;
+}
+
+.main--content h3.hero--title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.8em;
+  text-transform: uppercase;
+  margin: 35px 0 5px;
+  font-weight: 400;
+}
+
+.main--content p.hero--title {
+  font-family: 'Parisienne', cursive;
+  font-size: 4.8em;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.main--content .hero--date {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8em;
+  margin-left: -66px;
+  font-weight: 600;
+  font-family: 'Abhaya Libre', serif;
+}
+
+.main--content .hero--date span {
+  padding: 15px;
+}
+
+.hero--date__day {
+  border: 3px solid #491828;
+  border-top: none;
+  border-bottom: none;
+}
+
+.hero--date__negative {
+  font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-left: -66px;
+    font-weight: 400;
+}
+
+.hero--invite {
+  margin-left: -66px;
+  margin-top: 55px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.main--content 
+
+.font {
+  font-family: 'Abhaya Libre', serif;
+  font-family: 'Parisienne', cursive;
+  font-family: 'Roboto', sans-serif;
+}

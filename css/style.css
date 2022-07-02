@@ -1,3 +1,23 @@
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.hidden {
+  display: none;
+}
+
+.container--content__boy .box--girl, .container--content__girl .box--boy {
+  display: none !important;
+}
+
+.container--content__girl .hero--family {
+  flex-direction: row-reverse;
+}
+
 .section {
   background-image: url('/img/bg-section-1.png');
   background-size: 100% 100%;
@@ -80,6 +100,7 @@
   top: 8px;
   width: 185px;
   line-height: 25px;
+  font-weight: bold;
 }
 
 .invite__friend {
@@ -221,6 +242,11 @@
   .box--main {
     top: 12%;
     transform: translate(-50%, -10%);
+  }
+
+  .hero--invite__yourname {
+    left: 115px;
+    top: 0px;
   }
 
   .main--head .head--title {

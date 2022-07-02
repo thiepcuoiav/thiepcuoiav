@@ -32,7 +32,7 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body class="container--content__boy">
 
 <!-- Swiper -->
 <div class="swiper mySwiper">
@@ -55,7 +55,12 @@
             <h3 class="hero--title">
               Lễ thành hôn
             </h3>
-            <p class="hero--title">
+            <p class="hero--title box--boy" style="margin-bottom: 20px;">
+              <span>Phan Anh</span>
+              <span>&</span>
+              <span>Thùy Vân</span>
+            </p>
+            <p class="hero--title box--girl">
               <span>Thùy Vân</span>
               <span>&</span>
               <span>Phan Anh</span>
@@ -111,21 +116,25 @@
             <p class="hero--date__negative">
               (Tức ngày 18 tháng 06 năm nhâm dần)
             </p>
-            <p class="hero--date__negative">
+            <p class="hero--date__negative box--boy">
+              <span>Tại gia đình nhà trai</span>
+              <span>Thôn Văn Thai, Xã Cẩm Văn, Huyện Cẩm Giàng, Tỉnh Hải Dương</span>
+            </p>
+            <p class="hero--date__negative box--girl hidden">
               <span>Tại gia đình nhà gái</span>
               <span>Thôn Yển Vũ, Xã Đức Chính, Huyện Cẩm Giàng, Tỉnh Hải Dương</span>
             </p>
             <p class="text--welcome">Rất hân hạnh được đón tiếp</p>
-            <div class="hero--family flex-invert">
-              <div class="hero--family__wife">
-                <h4 class="text--heading__wife">Nhà gái</h4>
-                <p>Bố: Nguyễn Văn Phiu</p>
-                <p>Mẹ: Nguyễn Thị Thắm</p>
-              </div>
+            <div class="hero--family">
               <div class="hero--family__human">
                 <h4 class="text--heading__human">Nhà trai</h4>
                 <p>Bố: Nguyễn Ngọc Minh</p>
                 <p>Mẹ: Đỗ Thị Tươi</p>
+              </div>
+              <div class="hero--family__wife">
+                <h4 class="text--heading__wife">Nhà gái</h4>
+                <p>Bố: Nguyễn Văn Phiu</p>
+                <p>Mẹ: Nguyễn Thị Thắm</p>
               </div>
             </div>
           </div>
@@ -150,7 +159,8 @@
           <h2 class="text--thankyou">Thank you </h2>
 
           <div class="main--content">
-            <img class="img--qrcode" src="/img/qrcode-nhagai.png" alt="QR Code">
+            <img class="img--qrcode box--girl" src="/img/qrcode-nhagai.png" alt="QR Code">
+            <img class="img--qrcode box--boy" src="/img/qrcode-nhatrai.png" alt="QR Code">
           </div>
         </div>
 

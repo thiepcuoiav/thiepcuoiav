@@ -71,7 +71,15 @@
 }
 
 .hero--invite__yourname {
-  position: relative;
+  position: absolute;
+  font-family: 'Parisienne', cursive;
+  text-transform: capitalize;
+  border-bottom: 1px solid #333;
+  border-bottom-style: dotted;
+  left: 155px;
+  top: 8px;
+  width: 185px;
+  line-height: 25px;
 }
 
 .invite__friend {
@@ -135,6 +143,11 @@
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 2em;
+  display: flex;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
 .section__2 .box--head img:last-child {
